@@ -45,6 +45,8 @@ function addMovie() {
     titleInput.value = "";
     yearInput.value = "";
     renderMovies();
+
+    // Cambio addmovie
 }
 
 // Solo funciona añadir al inicio
