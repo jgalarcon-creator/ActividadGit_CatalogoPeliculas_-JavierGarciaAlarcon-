@@ -24,7 +24,8 @@ function renderMovies() {
         <span class="badge">${m.year}</span>
       </div>
       <div class="actions">
-        <!-- En ramas se añadirán botones por película -->
+        <button class="small edt" data-action="edit">Editar</button>
+        <button class="small del" data-action="delete">Eliminar</button>
       </div>
     `;
 
@@ -107,9 +108,5 @@ movieList.addEventListener("click", (e) => {
 
 // Solo funciona añadir al inicio
 addBtn.addEventListener("click", addMovie);
-
-// Estos eventos se completarán en ramas
-deleteBtn.addEventListener("click", () => alert("Se implementa en rama eliminar"));
-editBtn.addEventListener("click", () => alert("Se implementa en rama editar"));
 
 renderMovies();
