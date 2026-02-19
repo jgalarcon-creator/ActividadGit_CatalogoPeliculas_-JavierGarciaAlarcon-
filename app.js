@@ -88,8 +88,5 @@ movieList.addEventListener("click", (e) => {
 // Solo funciona añadir al inicio
 addBtn.addEventListener("click", addMovie);
 
-// Estos eventos se completarán en ramas
-deleteBtn.addEventListener("click", () => alert("Se implementa en rama eliminar"));
-editBtn.addEventListener("click", () => alert("Se implementa en rama editar"));
 
 renderMovies();
